@@ -153,5 +153,5 @@ Highlights improvement zones such as boundary hitting, strike rotation, or innin
 
 ## 🖼️ 6. Screenshots / Demo Visual
 
-https://github.com/mrkarthik14/2022-ICC-T20-WORLD-CUP-/blob/main/ICC%20T20%20World%20Cup%202022%20%E2%80%94%20Player%20Performance%20Analytics%20Dashboard.png
-
+Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
+Example: ![Dashboard Preview](https://github.com/mrkarthik14/2022-ICC-T20-WORLD-CUP-/blob/main/ICC%20T20%20World%20Cup%202022%20%E2%80%94%20Player%20Performance%20Analytics%20Dashboard.png)
