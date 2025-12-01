@@ -1,155 +1,157 @@
-# ICC T20 World Cup 2022 — Player Performance Analytics Dashboard
+# 🏏 ICC T20 World Cup 2022 — Player Performance Analytics Dashboard
 
 A dynamic Power BI dashboard engineered to decode batting performance patterns, player roles, and match-winning impact across the ICC Men’s T20 World Cup 2022.
 
-🎯 1. Project Title / Headline
-ICC T20 World Cup 2022 — Player Performance Insights Dashboard
+---
+
+## 🎯 1. Project Title / Headline
+
+### **ICC T20 World Cup 2022 — Player Performance Insights Dashboard**
 
 A visually rich, interactive analytics experience designed to break down batting styles, player categories, strike-rate distribution, and performance consistency across tournament stages.
 
-📝 2. Short Description / Purpose
+---
 
-This dashboard provides a high-impact analytical view of the key batting contributors during the ICC T20 World Cup 2022. It segments players into performance archetypes (Power Hitters, Anchors, Finishers, All-rounders, Fast Bowlers) while offering both micro and macro insights on runs, strike rate, boundary %, innings progression, and batting efficiency.
+## 📝 2. Short Description / Purpose
 
-Built for analysts, cricket selectors, enthusiasts, fantasy league strategists, and performance scouts who want fast, data-backed answers.
+This dashboard provides a **high-impact analytical view** of the key batting contributors during the ICC T20 World Cup 2022.  
+It segments players into performance archetypes:
 
-🛠️ 3. Tech Stack
+- Power Hitters  
+- Anchors  
+- Finishers  
+- All-rounders  
+- Specialist Fast Bowlers  
+
+The report surfaces **micro and macro insights** related to runs, strike rate, boundary %, innings progression, and overall batting efficiency.
+
+Built for analysts, cricket selectors, enthusiasts, fantasy league strategists, and performance scouts who want **fast, data-backed insights**.
+
+---
+
+## 🛠️ 3. Tech Stack
 
 The dashboard was developed using a robust analytics stack optimized for performance and clarity:
 
-📊 Power BI Desktop — Core platform for building visuals and report navigation.
+- **📊 Power BI Desktop** — Core platform for building visuals and report navigation.  
+- **📂 Power Query** — Extraction, cleaning, transformation, and shaping of raw match datasets.  
+- **🧠 DAX (Data Analysis Expressions)** — Custom measures for KPIs like Strike Rate, Boundary %, Batting Index, Avg Balls Faced, Efficiency Rating, etc.  
+- **📐 Data Modeling** — Relationships across player tables, match tables, innings data, and role classifications.  
+- **📁 File Formats** — `.pbix` for the report and PNG exports for documentation.
 
-📂 Power Query — Extraction, cleaning, transformation, and shaping of raw match datasets.
+---
 
-🧠 DAX (Data Analysis Expressions) — Custom measures for KPIs like Strike Rate, Boundary %, Batting Index, Avg Balls Faced, Efficiency Rating, etc.
+## 📚 4. Data Source
 
-📐 Data Modeling — Relationship management across player tables, match tables, innings data, and role classifications.
+### **Primary Sources**
+- ICC official match scorecards  
+- ESPN Cricinfo Ball-by-Ball & Match Data  
+- Player profile information and batting role classification  
 
-📁 File Format — Final project delivered in .pbix and exported dashboard screens as PNG for documentation.
+### **Dataset Includes**
+- Player name, team, batting style  
+- Runs, balls faced, innings count  
+- Strike rate, batting position, boundary %  
+- Role clustering (Power Hitter, Anchor, Finisher, etc.)  
+- Time-series performance metrics  
 
-📚 4. Data Source
+All data was cleaned, modeled, and optimized for analytics-ready reporting.
 
-Primary Sources:
+---
 
-ICC official match scorecards
+## ⭐ 5. Features / Highlights
 
-ESPN Cricinfo Ball-by-Ball & Match Data
+### ✔ **Business Problem**
+Cricket analysts, selectors, and performance teams often struggle to get a **centralized, comparative view** of player performance across roles and match scenarios. Raw scorecards don’t clearly show:
 
-Player profile information and batting role classification
+- Who the strongest power hitters are  
+- Which batters maintain strike rate under pressure  
+- Who performs consistently throughout the tournament  
+- How batting role strengths differ across teams  
 
-Dataset Includes:
+The dashboard bridges this analytical gap.
 
-Player name, team, batting style
+---
 
-Runs, balls faced, innings count
+### ✔ **Goal of the Dashboard**
+To deliver a **high-fidelity, interactive Power BI solution** that:
 
-Strike rate, batting position, boundary %
+- Profiles every key batter in the tournament  
+- Compares performance metrics side-by-side  
+- Highlights strengths based on role classifications  
+- Shows time-series metrics for consistency analysis  
+- Enables data-backed decisions for selection and strategy  
 
-Player role clustering (Power Hitter, Anchor, Finisher, etc.)
+---
 
-Visual time-series of consistency metrics
+## 🧭 Walkthrough of Key Visuals
 
-Cleaned and remodeled into a structured analytics-friendly schema.
+### 🔹 **Player Selection Panel**
+Select Power Hitters, Anchors, Finishers, All-rounders, or Fast Bowlers to instantly filter visuals.
 
-⭐ 5. Features / Highlights
-✔ Business Problem
-
-Cricket analysts, selectors, and performance teams struggle to access a single comprehensive view of player contributions across roles, match situations, and batting patterns. Raw scorecards don’t immediately reveal efficiency, pressure performance, or consistency trends.
-
-Questions like:
-
-Who are the top power hitters?
-
-Which batters maintain strike rate under pressure?
-
-Who contributes consistently across innings?
-
-How do teams compare based on batting role strengths?
-…are not easily answered without a centralized system.
-
-✔ Goal of the Dashboard
-
-To deliver a high-fidelity, interactive Power BI solution that:
-
-Profiles every major batter in the tournament
-
-Compares performance metrics side-by-side
-
-Highlights key contributors by batting roles
-
-Presents time-series performance for consistency analysis
-
-Provides scouting, selection, and strategy-ready insights
-
-🧭 Walkthrough of Key Visuals
-🔹 Player Selection Panel
-
-Choose Power Hitters / Anchors / Finishers / All-rounders / Fast Bowlers to filter dashboards instantly.
-
-🔹 Player Stats Table
-
+### 🔹 **Player Stats Table**
 Includes:
 
-Runs
+- Runs  
+- Balls Faced  
+- Strike Rate  
+- Batting Average  
+- Boundary %  
+- Batting Position  
 
-Balls faced
+A clean, role-focused comparison dashboard.
 
-Strike rate
+---
 
-Batting average
+### 🔹 **Performance Trend Lines (Bottom-Left Sections)**
 
-Boundary percentage
+Visual insights include:
 
-Batting position
-Clean, role-segmented view for fast comparisons.
+- Batting Average over time  
+- Strike Rate progression  
+- Average Balls Faced  
+- Boundary % fluctuation  
 
-🔹 Performance Trend Lines (Bottom Left Charts)
+These charts highlight **consistency, volatility, and match-to-match reliability**.
 
-Visuals include:
+---
 
-Batting Average over time
+### 🔹 **Scatter Plot — Strike Rate vs Batting Average (Bottom-Right)**  
+Used to identify:
 
-Strike Rate progression
+- High-impact aggressive players  
+- Stable anchors  
+- Underperformers  
 
-Average Balls Faced
+Perfect for selection and match-up strategies.
 
-Boundary % fluctuation
-These time-series charts identify consistency, volatility, and match-to-match reliability.
+---
 
-🔹 Scatter Plot: Strike Rate vs Batting Average (Bottom Right)
+### 🔹 **Horizontal Bar Charts for Runs**
+Quickly compare contribution volumes between players.
 
-High-level visual to identify:
+---
 
-Aggressive high-impact players
+## 📈 Business Impact & Insights
 
-Anchors with stability
+### **Strategic Selection**
+Helps analysts and selectors build balanced batting line-ups based on roles.
 
-Underperformers with low efficiency
-This chart serves as a role validation and selection tool.
+### **Performance Optimization**
+Identifies slow starters, inconsistent players, or performance spikes.
 
-🔹 Horizontal Bar Charts for Runs
+### **Data-Driven Commentary & Journalism**
+Provides broadcasters with ready-made stories and match insights.
 
-Quick way to observe contribution volume between players.
+### **Fantasy Cricket & Fan Engagement**
+Users can instantly find top run-getters, power hitters, and valuable picks.
 
-📈 Business Impact & Insights
-Strategic Selection
+### **Coaching & Player Development**
+Highlights improvement zones such as boundary hitting, strike rotation, or innings stability.
 
-Helps team analysts choose ideal combinations based on role effectiveness.
+---
 
-Performance Optimization
+## 🖼️ 6. Screenshots / Demo Visual
 
-Identifies players who start slow, perform inconsistently, or excel in specific positions.
 
-Data-Driven Commentary & Journalism
 
-Provides broadcasters with ready insights during pre- and post-match analysis.
-
-Fantasy Cricket & Fan Engagement
-
-Users can easily spot top power hitters or high-value anchors for fantasy leagues.
-
-Coaching & Development
-
-Pinpoints improvement areas such as boundary hitting, strike rate acceleration, or innings stability.
-
-🖼️ 6. Screenshots / Demo Visual
